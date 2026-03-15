@@ -1,35 +1,139 @@
-# 🧹 Cleanza
+# 🧹 Cleanza — Data Cleaning & Preprocessing Toolkit
 
-**Developer:** Aman Sinha  
-**Type:** System Optimization Software  
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Data Engineering](https://img.shields.io/badge/Data%20Engineering-Project-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## 📘 Overview
-**Cleanza** is a lightweight optimization tool designed to reduce input delay and boost performance on older hardware systems — particularly those using **HDDs**. It enhances responsiveness by improving disk read/write efficiency, managing background processes, and cleaning unnecessary data.
+Cleanza is a **data cleaning and preprocessing toolkit** designed to transform raw, messy datasets into structured and analysis-ready data.
 
-## ⚙️ Purpose
-The aim of Cleanza is to **speed up workflow and user interaction** without needing a hardware upgrade. It intelligently handles I/O bottlenecks and background clutter to help older devices run more smoothly.
-
-## 🚀 Key Features
-- ⚡ **Input Delay Reduction:** Detects and minimizes I/O bottlenecks for faster execution.  
-- 🧠 **Smart Cleanup:** Removes junk files, cache, and redundant data to improve efficiency.  
-- 💡 **Lightweight Design:** Runs quietly in the background using minimal system resources.  
-- 🧩 **Custom Fields/Columns:** Modular design adaptable to specific use cases.  
-- 📊 **Performance Tracking:** Logs optimization results for user insight.  
-
-## 🧰 Technical Insight
-Cleanza uses efficient file handling and process prioritization to improve system responsiveness. It safely interacts with system operations to maintain stability while optimizing performance.
-
-## 💻 Use Case
-Perfect for:
-- Students and professionals using older PCs or laptops  
-- Developers testing on HDD-based environments  
-- Users wanting faster performance without expensive upgrades  
-
-## 🧩 Future Plans
-- SSD and hybrid disk optimization  
-- Scheduled cleanup automation  
-- Integration with monitoring tools  
+The project focuses on **automating common data preparation tasks**, which are a crucial step in **data engineering, analytics, and machine learning workflows**.
 
 ---
 
-**Cleanza** — making old systems feel new again ⚙️✨
+# 📌 Project Goal
+
+Real-world datasets often contain:
+
+* Missing values
+* Duplicate records
+* Inconsistent formats
+* Noise and irrelevant fields
+
+Cleanza helps **automatically clean and standardize datasets** so they can be used for:
+
+* Data analysis
+* Machine learning
+* Data pipelines
+* Reporting and dashboards
+
+---
+
+# ⚙️ Features
+
+✔ Detect and handle **missing values**
+✔ Remove **duplicate rows**
+✔ Normalize and format **data fields**
+✔ Prepare datasets for **machine learning pipelines**
+✔ Simple **Python-based data processing workflow**
+
+---
+
+# 🧠 Why This Project Matters
+
+Data scientists and ML models rely heavily on **clean and structured data**.
+
+Cleanza demonstrates **core data engineering practices**, including:
+
+* Data preprocessing
+* Data transformation
+* Data quality improvement
+* Dataset preparation for machine learning
+
+---
+
+# 🛠 Technologies Used
+
+* **Python**
+* **Pandas**
+* **NumPy**
+
+These tools are widely used in **data engineering and data science pipelines**.
+
+---
+
+# 📂 Project Structure
+
+```
+Cleanza
+│
+├── cleanza.py
+├── dataset_example.csv
+├── README.md
+```
+
+---
+
+# 🚀 How to Run
+
+Clone the repository:
+
+```
+git clone https://github.com/EzioAman/Cleanza.git
+```
+
+Install dependencies:
+
+```
+pip install pandas numpy
+```
+
+Run the script:
+
+```
+python cleanza.py
+```
+
+---
+
+# 📊 Example Workflow
+
+```
+Raw Dataset
+     ↓
+Data Cleaning
+     ↓
+Missing Value Handling
+     ↓
+Duplicate Removal
+     ↓
+Structured Dataset Ready for Analysis
+```
+
+---
+
+# 💡 Use Cases
+
+Cleanza can be used for:
+
+* Preparing datasets for **machine learning**
+* Cleaning **CSV or tabular datasets**
+* Data preprocessing in **analytics workflows**
+* Building **data pipelines**
+
+---
+
+# 🔮 Future Improvements
+
+* Support for large datasets
+* Integration with data pipelines
+* Automated data quality reports
+* Web interface for dataset uploads
+
+---
+
+# 👤 Author
+
+**Aman Sinha**
+
+GitHub:
+https://github.com/EzioAman
