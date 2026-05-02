@@ -404,9 +404,17 @@ class ChunkedCSVViewerApp:
     
             try:
                 df = self.df_full.copy()
-                df = df[df["STEP COMPLETED"].astype(str).str.strip() != "#0"]
-                df["CREATED DATE (STEP 1)"] = pd.to_datetime(df["CREATED DATE (STEP 1)"], errors="coerce")
-                df["STEP 3 DATE"] = pd.to_datetime(df["STEP 3 DATE"], errors="coerce")
+                remove_step0 = messagebox.askyesno(
+                    "Filter #0",
+                    "Exclude STEP COMPLETED = #0 ?"
+                )
+                if remove_step0:
+                    df = df[df["STEP COMPLETED"].astype(str).str.strip() != "#0"]
+                
+                df["CREATED DATE (STEP 1)"] = pd.to_datetime(
+                    df["CREATED DATE (STEP 1)"],
+                    errors="coerce"
+                )
     
                 df_filtered = df[df["CREATED DATE (STEP 1)"].between(start, end)]
                 total_leads = df_filtered.groupby(group_cols).size().reset_index(name="Lead")
