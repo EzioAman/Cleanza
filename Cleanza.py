@@ -409,17 +409,22 @@ class ChunkedCSVViewerApp:
                 top.attributes('-topmost', True)
                 top.after(100, lambda: top.attributes('-topmost', False))
             
-                remove_step0 = messagebox.askyesno(
+                include_step0 = messagebox.askyesno(
                     "Filter #0",
-                    "Exclude STEP COMPLETED = #0 ?",
+                    "Include STEP COMPLETED = #0 ?",
                     parent=top
                 )
-            
-                if remove_step0:
+                
+                if not include_step0:
                     df = df[df["STEP COMPLETED"].astype(str).str.strip() != "#0"]
-            
+                
                 df["CREATED DATE (STEP 1)"] = pd.to_datetime(
                     df["CREATED DATE (STEP 1)"],
+                    errors="coerce"
+                )
+                
+                df["STEP 3 DATE"] = pd.to_datetime(
+                    df["STEP 3 DATE"],
                     errors="coerce"
                 )
     
