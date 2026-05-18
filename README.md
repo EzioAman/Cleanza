@@ -20,7 +20,7 @@
 
 # 🚀 Overview
 
-Cleanza is a modern **Data Engineering Toolkit** designed to clean, preprocess, transform, filter, and prepare large datasets for analytics and machine learning workflows.
+Cleanza is a modern **Data Engineering Toolkit** for Education Sector designed to clean, preprocess, transform, filter, and prepare large datasets for analytics and machine learning workflows.
 
 The project focuses on simplifying real-world data operations through a fast and efficient desktop-based workflow capable of handling messy and unstructured datasets.
 
