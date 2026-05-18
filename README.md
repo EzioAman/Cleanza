@@ -1,95 +1,140 @@
-# 🧹 Cleanza — Data Cleaning & Preprocessing Toolkit
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EzioAman/Cleanza/main/Cleanza_logo.png" width="220">
+</p>
+
+<h1 align="center">Cleanza</h1>
+
+<p align="center">
+  <b>Data Engineering Toolkit</b>
+</p>
+
+<p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Data Engineering](https://img.shields.io/badge/Data%20Engineering-Project-orange)
+![Data Engineering](https://img.shields.io/badge/Data%20Engineering-Toolkit-orange)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-Cleanza is a **data cleaning and preprocessing toolkit** designed to transform raw, messy datasets into structured and analysis-ready data.
-
-The project focuses on **automating common data preparation tasks**, which are a crucial step in **data engineering, analytics, and machine learning workflows**.
+</p>
 
 ---
 
-# 📌 Project Goal
+# 🚀 Overview
 
-Real-world datasets often contain:
+Cleanza is a modern **Data Engineering Toolkit** designed to clean, preprocess, transform, filter, and prepare large datasets for analytics and machine learning workflows.
 
-* Missing values
-* Duplicate records
-* Inconsistent formats
-* Noise and irrelevant fields
-
-Cleanza helps **automatically clean and standardize datasets** so they can be used for:
-
-* Data analysis
-* Machine learning
-* Data pipelines
-* Reporting and dashboards
+The project focuses on simplifying real-world data operations through a fast and efficient desktop-based workflow capable of handling messy and unstructured datasets.
 
 ---
 
-# ⚙️ Features
+# ✨ Features
 
-✔ Detect and handle **missing values**
-✔ Remove **duplicate rows**
-✔ Normalize and format **data fields**
-✔ Prepare datasets for **machine learning pipelines**
-✔ Simple **Python-based data processing workflow**
+## 📂 File Processing
+- Load large CSV datasets
+- Load Excel files with multi-sheet support
+- Efficient chunk-based loading
+- Fast preview system
+
+## 🧹 Data Cleaning
+- Remove duplicate rows
+- Handle missing values
+- Clean inconsistent records
+- Normalize data structures
+- Prepare datasets for analysis
+
+## 🔍 Smart Filtering
+- Filter by PROGRAM
+- Filter by PLAN
+- Filter by FOLLOWUP
+- Filter by ACADEMIC CAREER
+- Filter by CREATED DATE
+
+## 📊 Analytics & Summary
+- Generate lead summaries
+- Dynamic group-by analytics
+- Paid lead tracking
+- Date-range based reports
+
+## ⚡ Performance
+- Optimized for large datasets
+- Chunk processing support
+- Responsive desktop workflow
+- Efficient memory handling
 
 ---
 
-# 🧠 Why This Project Matters
+# 🧠 Why Cleanza?
 
-Data scientists and ML models rely heavily on **clean and structured data**.
+Real-world datasets are often:
+- incomplete
+- duplicated
+- inconsistent
+- noisy
+- difficult to process manually
 
-Cleanza demonstrates **core data engineering practices**, including:
+Cleanza automates common data engineering and preprocessing tasks to transform raw datasets into structured, analysis-ready data.
 
-* Data preprocessing
-* Data transformation
-* Data quality improvement
-* Dataset preparation for machine learning
+This toolkit demonstrates practical workflows used in:
+- Data Engineering
+- Data Analytics
+- Machine Learning
+- Reporting Systems
+- CRM Data Processing
 
 ---
 
 # 🛠 Technologies Used
 
-* **Python**
-* **Pandas**
-* **NumPy**
-
-These tools are widely used in **data engineering and data science pipelines**.
+- Python
+- Pandas
+- NumPy
+- Tkinter
+- CustomTkinter
+- Tksheet
 
 ---
 
 # 📂 Project Structure
 
-```
-Cleanza
+```bash
+Cleanza/
 │
 ├── cleanza.py
+├── assets/
+│   ├── Cleanza_logo.png
+│   └── icon.ico
+│
 ├── dataset_example.csv
-├── README.md
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-# 🚀 How to Run
+# ⚙️ Installation
 
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/EzioAman/Cleanza.git
+```
+
+Move into the project directory:
+
+```bash
+cd Cleanza
 ```
 
 Install dependencies:
 
-```
-pip install pandas numpy
+```bash
+pip install -r requirements.txt
 ```
 
-Run the script:
+---
 
-```
+# ▶️ Run Cleanza
+
+```bash
 python cleanza.py
 ```
 
@@ -97,14 +142,16 @@ python cleanza.py
 
 # 📊 Example Workflow
 
-```
+```text
 Raw Dataset
      ↓
 Data Cleaning
      ↓
-Missing Value Handling
+Filtering & Transformation
      ↓
 Duplicate Removal
+     ↓
+Lead Summary & Analytics
      ↓
 Structured Dataset Ready for Analysis
 ```
@@ -115,25 +162,46 @@ Structured Dataset Ready for Analysis
 
 Cleanza can be used for:
 
-* Preparing datasets for **machine learning**
-* Cleaning **CSV or tabular datasets**
-* Data preprocessing in **analytics workflows**
-* Building **data pipelines**
+- CRM dataset preprocessing
+- Analytics data preparation
+- Machine learning preprocessing
+- Cleaning CSV/Excel datasets
+- Reporting workflows
+- Lead management systems
+- Educational data processing
 
 ---
 
 # 🔮 Future Improvements
 
-* Support for large datasets
-* Integration with data pipelines
-* Automated data quality reports
-* Web interface for dataset uploads
+- Modern dashboard UI
+- Drag-and-drop dataset upload
+- Automated data quality reports
+- Export to multiple formats
+- Advanced search engine
+- Data visualization tools
+- SQLite/PostgreSQL integration
+- Pipeline integration support
+
+---
+
+# 📸 Preview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EzioAman/Cleanza/main/Cleanza_logo.png" width="250">
+</p>
 
 ---
 
 # 👤 Author
 
-**Aman Sinha**
+## Aman Sinha
 
 GitHub:
 https://github.com/EzioAman
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a star on GitHub.
