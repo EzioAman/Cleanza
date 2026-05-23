@@ -380,12 +380,41 @@ class ChunkedCSVViewerApp:
         end_cal = DateEntry(top, date_pattern='dd-mm-yyyy')
         end_cal.grid(row=1, column=1, padx=5)
     
-        tk.Label(top, text="Group by Columns (Ctrl+Click):").grid(row=2, column=0, padx=5, pady=5)
-        valid_cols = [col for col in self.df_full.columns if self.df_full[col].dtype == 'object']
-        group_listbox = tk.Listbox(top, selectmode=tk.MULTIPLE, height=16, width=40, exportselection=False)
+        tk.Label(top, text="Group by Columns (Ctrl+Click):").grid(
+            row=2,
+            column=0,
+            padx=5,
+            pady=5,
+            sticky="n"
+        )
+
+        list_frame = tk.Frame(top)
+        list_frame.grid(row=2, column=1, padx=5, pady=5)
+
+        scrollbar = tk.Scrollbar(list_frame, orient="vertical")
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        valid_cols = sorted([
+            str(col)
+            for col in self.df_full.columns
+            if not str(col).startswith("_")
+        ])
+
+        group_listbox = tk.Listbox(
+            list_frame,
+            selectmode=tk.MULTIPLE,
+            height=20,
+            width=45,
+            exportselection=False,
+            yscrollcommand=scrollbar.set
+        )
+
         for col in valid_cols:
             group_listbox.insert(tk.END, col)
-        group_listbox.grid(row=2, column=1, padx=5, pady=5)
+
+        group_listbox.pack(side=tk.LEFT, fill=tk.BOTH)
+
+        scrollbar.config(command=group_listbox.yview)
     
         def generate_summary():
             selected_indices = group_listbox.curselection()
