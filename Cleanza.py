@@ -116,7 +116,8 @@ class ChunkedCSVViewerApp:
 
         self.chunk_loader_thread = threading.Thread(target=self.load_chunks)
         self.chunk_loader_thread.start()
-        self.root.after(100, self.check_queue)
+        if self.chunk_loader_thread.is_alive() or not self.queue.empty():
+            self.root.after(100, self.check_queue)
 
     def load_chunks(self):
         try:
@@ -341,9 +342,12 @@ class ChunkedCSVViewerApp:
                 if match_type.get() == "contains":
                     results = self.df_full[series.str.contains(val, na=False, case=False)]
                 elif match_type.get() == "exact":
-                    results = self.df_full[series == val]
+                    results = self.df_full[series.str.lower() == val.lower()]
+                elif match_type.get() == "startswith":
+                    results = self.df_full[series.str.startswith(val, na=False)]
                 else:
                     results = pd.DataFrame()
+
                 self.display_table(results)
                 self.log(f"Found {len(results)} matching rows for '{val}' in column '{col}'.")
             else:
