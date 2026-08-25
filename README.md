@@ -36,42 +36,6 @@ The project focuses on simplifying real-world data operations through a fast and
 
 ---
 
-# ✨ Features
-
-## 📂 File Processing
-- Load large CSV datasets
-- Load Excel files with multi-sheet support
-- Efficient chunk-based loading
-- Fast preview system
-
-## 🧹 Data Cleaning
-- Remove duplicate rows
-- Handle missing values
-- Clean inconsistent records
-- Normalize data structures
-- Prepare datasets for analysis
-
-## 🔍 Smart Filtering
-- Filter by PROGRAM
-- Filter by PLAN
-- Filter by FOLLOWUP
-- Filter by ACADEMIC CAREER
-- Filter by CREATED DATE
-
-## 📊 Analytics & Summary
-- Generate lead summaries
-- Dynamic group-by analytics
-- Paid lead tracking
-- Date-range based reports
-
-## ⚡ Performance
-- Optimized for large datasets
-- Chunk processing support
-- Responsive desktop workflow
-- Efficient memory handling
-
----
-
 # 🧠 Why Cleanza?
 
 Real-world datasets are often:
@@ -161,6 +125,40 @@ Lead Summary & Analytics
      ↓
 Structured Dataset Ready for Analysis
 ```
+
+# ✨ Features
+
+## 📂 File Processing
+- Load large CSV datasets
+- Load Excel files with multi-sheet support
+- Efficient chunk-based loading
+- Fast preview system
+
+## 🧹 Data Cleaning
+- Remove duplicate rows
+- Handle missing values
+- Clean inconsistent records
+- Normalize data structures
+- Prepare datasets for analysis
+
+## 🔍 Smart Filtering
+- Filter by PROGRAM
+- Filter by PLAN
+- Filter by FOLLOWUP
+- Filter by ACADEMIC CAREER
+- Filter by CREATED DATE
+
+## 📊 Analytics & Summary
+- Generate lead summaries
+- Dynamic group-by analytics
+- Paid lead tracking
+- Date-range based reports
+
+## ⚡ Performance
+- Optimized for large datasets
+- Chunk processing support
+- Responsive desktop workflow
+- Efficient memory handling
 
 ---
 
