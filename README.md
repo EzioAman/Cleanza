@@ -1,5 +1,3 @@
-**The following contains ONLY the stable update of cleanza, the newest model has been removed from GitHub for being an application software**
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/EzioAman/Cleanza/main/Cleanza_logo.png" width="220">
 </p>
@@ -25,6 +23,19 @@
 Cleanza is a modern **Data Engineering Toolkit** for Education Sector designed to clean, preprocess, transform, filter, and prepare large datasets for analytics and machine learning workflows.
 
 The project focuses on simplifying real-world data operations through a fast and efficient desktop-based workflow capable of handling messy and unstructured datasets.
+
+---
+
+> [!IMPORTANT]
+> ## Repository Notice
+>
+> **This repository contains the stable public version of Cleanza.**
+>
+> The latest application build is **not included in this repository**.
+>
+> The version available here is preserved as the **stable public release** of Cleanza and may differ from the latest application version.
+>
+> **Do not clone or pull this repository expecting it to contain the newest Cleanza application build.**
 
 ---
 
