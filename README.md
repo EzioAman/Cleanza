@@ -9,13 +9,10 @@
 </p>
 
 <p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Data Engineering](https://img.shields.io/badge/Data%20Engineering-Toolkit-orange)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
+  <img src="https://img.shields.io/badge/Python-3.x-blue">
+  <img src="https://img.shields.io/badge/Data%20Engineering-Toolkit-orange">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen">
 </p>
-
 ---
 
 # 🚀 Overview
