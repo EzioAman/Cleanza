@@ -174,11 +174,5 @@ Cleanza can be used for:
 - Lead management systems
 - Educational data processing
 
----
-
-# 👤 Author
-
-## Aman Sinha
-
 GitHub:
 https://github.com/EzioAman
