@@ -103,9 +103,7 @@ Cleanza/
 ├── cleanza.py
 ├── assets/
 │   ├── Cleanza_logo.png
-│   └── icon.ico
 │
-├── dataset_example.csv
 ├── requirements.txt
 └── README.md
 ```
