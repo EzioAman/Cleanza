@@ -178,27 +178,6 @@ Cleanza can be used for:
 
 ---
 
-# 🔮 Future Improvements
-
-- Modern dashboard UI
-- Drag-and-drop dataset upload
-- Automated data quality reports
-- Export to multiple formats
-- Advanced search engine
-- Data visualization tools
-- SQLite/PostgreSQL integration
-- Pipeline integration support
-
----
-
-# 📸 Preview
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/EzioAman/Cleanza/main/Cleanza_logo.png" width="250">
-</p>
-
----
-
 # 👤 Author
 
 ## Aman Sinha
