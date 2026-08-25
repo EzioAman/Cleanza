@@ -101,9 +101,7 @@ This toolkit demonstrates practical workflows used in:
 Cleanza/
 │
 ├── cleanza.py
-├── assets/
-│   ├── Cleanza_logo.png
-│
+├── Cleanza_logo.png
 ├── requirements.txt
 └── README.md
 ```
