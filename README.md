@@ -1,3 +1,5 @@
+**The following contains ONLY the stable update of cleanza, the newest model has been removed from GitHub for being an application software**
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/EzioAman/Cleanza/main/Cleanza_logo.png" width="220">
 </p>
